@@ -2129,16 +2129,23 @@ input, select, textarea {
 					justify-content: space-evenly;
 				}
 
-				.linkIcons > * {
-				  background: #fff;
-				  font-size: 64px;
-				  text-align: center;
+				.linkIcons img {
+					width: 2em;
 				}
 
 				.company {
 					display: inline-block;
 					flex-direction: row;
 					padding-right: 15px;
+				}
+
+				.role {
+					padding: 0;
+					margin-bottom: 0;
+				}
+
+				.description {
+					padding-left: 20px;
 				}
 
 /* Footer */
